@@ -19,5 +19,5 @@ export class ProductEntity {
   category: CategoriaProduto; //enum que esta em utils
 
   @Column()
-  available: number;
+  available: boolean;
 }
